@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div-wrap {
+  display: block;
+  margin-left: 70%;
+  color: white;
+  padding: 1px;
+}
+
+body {
+  margin: 5.3vh;
+  background-color: transparent !important;
+}
+
+.noteContainer {
+  top: 10rem;
+  height: 99%;
+  overflow: hidden;
+  position: relative;
+  max-width: 35%;
+  float: right;
+  font-family: "Shantell Sans", cursive !important;
+}
+
+.noteContainer-left {
+  top: 10rem;
+  height: 99%;
+  overflow: hidden;
+  position: relative;
+  max-width: 35%;
+  float: left;
+  font-family: "Shantell Sans", cursive !important;
+}
+
+.morseContainer {
+  position: absolute;
+  bottom: 5%;
+  right: 35%;
+}
+
+.container-morse {
+  flex-flow: column;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0.8vh;
+  border-radius: 0.5vh;
+  margin-top: 1%;
+  width: 30vw;
+  min-height: 10vh;
+  float: right;
+  color: #90ebd3;
+  background-color: #004d2ee6;
+  font-family: 'Pixelify Sans', sans-serif !important;
+  font-size: 1.25rem;
+  height: 100%;
+}
+
+.container-desc {
+  flex-flow: column;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0.8vh;
+  border-radius: 0.5vh;
+  margin-top: 1%;
+  font: caption;
+  font-weight: bold;
+  width: 20vw;
+  min-height: 2vh;
+  float: right;
+  color: black;
+  background-color: rgba(255, 237, 213, 0.9);
+  /* font-family: 'Caveat', cursive !important; */
+  height: 100%;
+}
+
+.container-desc-left {
+  flex-flow: column;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0.8vh;
+  border-radius: 0.5vh;
+  margin-top: 1%;
+  font: caption;
+  font-weight: bold;
+  width: 20vw;
+  min-height: 2vh;
+  float: left;
+  color: black;
+  background-color: rgba(255, 237, 213, 0.9);
+  /* font-family: 'Caveat', cursive !important; */
+  height: 100%;
+}
+
+.error {
+  color: #e6e6e5;
+  background-color: rgba(207, 38, 38, 0.85);
+}
+
+.success {
+  color: #ffffff;
+  background-color: rgba(38, 207, 108, 0.85);
+}
+
+.text {
+  display: flex;
+  height: 100%;
+  margin-left: 0.3vh;
+  margin-right: 2vw;
+  font-size: 1.5rem !important;
+  word-break: break-word;
+}
+
+.text-radio {
+  display: flex;
+  height: 100%;
+  margin-left: 0.3vh;
+  margin-right: 5vw;
+  font-size: 1.35rem !important;
+  word-break: break-word;
+}
+
+#panel {
+  font-size: 1.25rem !important;
+  color: white;
+  position: fixed;
+  top: 60%;
+  left: 2%;
+  width: 15%;
+  transform: translate(0, -50%);
+  background-color: rgb(44, 44, 44);
+  border: 2px solid rgb(0, 136, 255);
+  border-radius: 7px;
+}
+
+#morsePanel {
+  font-size: 1.25rem !important;
+  color: white;
+  position: fixed;
+  top: 60%;
+  left: 2%;
+  width: 15%;
+  transform: translate(0, -50%);
+  background-color: #004d2e;
+  border: 2px solid #90ebd3;
+  border-radius: 7px;
+}
+
+button {
+  background-color: aliceblue;
+  padding: 12px;
+}
+
+.form-control {
+  background-color: transparent !important;
+  color: white;
+}
+
+.morse-form-control {
+  background-color: transparent !important;
+  color: white;
+}
+
+.input-group {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.form-control {
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 2px solid #233f98 !important;
+  color: white !important;
+  font-size: 1.25rem !important;
+}
+
+.morse-form-control {
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 2px solid #004d2e !important;
+  color: #90ebd3 !important;
+  font-size: 1.25rem !important;
+}
+
+.fa-CustomX {
+  font-size: 2rem;
+}
+
+textarea {
+  margin-bottom: 5px;
+  width: 100%;
+  height: 100px;
+  font-size: 15px;
+  padding: 12px;
+}
+
+.fa-delete-left {
+  position: absolute !important;
+  top: 10px;
+  right: 10px;
+  color: #6d6d6d;
+  font-size: 1.25rem !important;
+}
+
+.fa-walkie-talkie {
+  position: absolute !important;
+  top: 10px;
+  right: 1rem;
+  color: #90ebd3;
+  font-size: 5rem !important;
+}
